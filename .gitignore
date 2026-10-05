@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+.demo_keys.txt
+
+# Generated data
+chroma_db/
+data/raw/*.pdf
+config/users.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
