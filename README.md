@@ -1,4 +1,4 @@
-# Insurance Policy RAG Assistant
+# PolicyLens AI
 
 A Retrieval-Augmented Generation (RAG) API that answers questions about health insurance policy documents with **grounded, source-cited responses**. It combines semantic and keyword retrieval, fuses the results, re-ranks them with a cross-encoder, and instructs the LLM to answer only from the retrieved passages, or reply *"No answer found in the provided policy documents."*
 
@@ -104,7 +104,7 @@ flowchart LR
 ## Project Structure
 
 ```text
-Insurance-Policy-RAG-Assistant/
+PolicyLens-AI/
 ├── src/
 │   ├── api.py              # FastAPI app, routes, middleware
 │   ├── config.py           # Configuration
@@ -138,7 +138,7 @@ Insurance-Policy-RAG-Assistant/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/<your-username>/Insurance-Policy-RAG-Assistant.git
+git clone https://github.com/<your-username>/PolicyLens-AI.git
 cd Insurance-Policy-RAG-Assistant
 
 # Windows (PowerShell)
